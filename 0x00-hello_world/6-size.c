@@ -1,21 +1,20 @@
 #include <stdio.h>
+
 /**
  * main -Entry point
  *
- * Return: Always 0 (Success)
+ *print size of different characters
+ *
+ * Return: Always Success return 0
+ *
  */
+
 int maiv(void)
 {
-char charType;
-int intType;
-long longType;
-long long longlongType;
-float floatType;
-
-printf("Size of a char: %Id byte(s)\n",sizeof(charType));
-printf("Size of a int: %Id byte(s)\n",sizeof(intType)); 
-printf("Size of a long: %Id byte(s)\n",sizeof(longType)); 
-printf("Size of a long long: %Id byte(s)\n",sizeof(longlongType)); 
-printf("Size of a float: %Id byte(s)\n",sizeof(floatType)); 
+printf("Size of a char: %Id byte(s)\n",sizeof(char));
+printf("Size of a int: %Id byte(s)\n",sizeof(int)); 
+printf("Size of a long: %Id byte(s)\n",sizeof(long int)); 
+printf("Size of a long long: %Id byte(s)\n",sizeof(long long int)); 
+printf("Size of a float: %Id byte(s)\n",sizeof(float)); 
 return (0);
 }
