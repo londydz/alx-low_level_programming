@@ -1,11 +1,8 @@
 #include <stdio.h>
+
 /**
- * main -Entry point
- *
- * print size of different characters
- *
+ * main entry point
  * Return: Always Success return 0
- *
  */
 int main(void)
 {
